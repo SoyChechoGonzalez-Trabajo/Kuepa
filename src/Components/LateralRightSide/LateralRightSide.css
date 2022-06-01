@@ -1,0 +1,14 @@
+.LateralRightSide {
+	position: absolute;
+	font-size: 0.8rem;
+	right: 0;
+	padding: 1.5em 1em 0 3em;
+	background: #2B2E43;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	gap: 1.5em;
+	border-top-left-radius: 4.5em;
+	overflow-y: scroll;
+}

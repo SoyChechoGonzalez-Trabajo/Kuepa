@@ -1,0 +1,67 @@
+.ProspectCardContact {
+	background: #464858;
+	inline-size: 6em;
+	min-block-size: 6em;
+	border-radius: 1em;
+	position: relative;
+}
+.Head_ProspectCardContact {
+	background: #9799B4;
+	inline-size: 100%;
+	block-size: 1.5em;
+	border-radius: 1em 1em 0 0;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	padding-inline-end: 0.5em;
+	position: absolute;
+	top: 0;
+}
+.Head_ProspectCardContact span {
+	color: var(--white);
+	text-transform: uppercase;
+	font-size: 0.75em;
+}
+.ProspectCardContact .fa-brands,
+.ProspectCardContact .fa-solid
+{
+	color: var(--white);
+	position: absolute;
+	top: -0.5em;
+	left: 0.25em;
+	inline-size: 1.25em;
+	block-size: 1.25em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 0.25em;
+	z-index: 1;
+}
+.ProspectCardContact .fa-whatsapp {
+	background: #5DCA45;
+}
+.ProspectCardContact .fa-facebook-f {
+	background: #3B5998;
+}
+.ProspectCardContact .fa-envelope {
+	background: linear-gradient(to bottom, #3a7bd5, #00d2ff);
+}
+.ProspectCardContact .fa-phone {
+	background: #5DCA45;
+}
+.Body_ProspectCardContact {
+	position: absolute;
+	inline-size: 100%;
+	padding: 1.5em 0.5em 0.5em 0.5em;
+	display: flex;
+	flex-direction: column;
+}
+.Body_ProspectCardContact .name{
+	color: var(--white);
+	font-size: 1.5em;
+}
+.Body_ProspectCardContact .ago {
+	color: var(--white);
+	opacity: 0.5;
+	font-size: 0.75em;
+}
