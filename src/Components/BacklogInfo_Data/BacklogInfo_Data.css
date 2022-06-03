@@ -1,0 +1,9 @@
+.BacklogInfo_Data {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(100px, 200px));
+	grid-auto-rows: auto;
+	align-content: center;
+	justify-content: center;
+	grid-row-gap: 1em;
+	inline-size: 100%;
+}

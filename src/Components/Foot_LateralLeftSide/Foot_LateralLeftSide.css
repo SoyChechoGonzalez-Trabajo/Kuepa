@@ -1,0 +1,22 @@
+.Foot_LateralLeftSide {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 0.7em;
+}
+.Foot_LateralLeftSide i {
+	font-size: 1.5em;
+	color: var(--white);
+}
+.Img_Foot_LateralLeftSide {
+	display: block;
+	inline-size: 3em;
+	block-size: 3em;
+	background: white;
+	border-radius: 50%;
+}
+.Img_Foot_LateralLeftSide img {
+	inline-size: 100%;
+	block-size: 100%;
+	border-radius: 50%;
+}

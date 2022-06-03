@@ -1,0 +1,37 @@
+.DailyConnexions_Card {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-inline: 1em;
+	border-left: 4px solid #5DCA45;
+	font-size: 0.8em;
+}
+.DailyConnexions_Card:nth-child(odd){
+	background: var(--hightlight);
+}
+.DailyConnexions_Card:nth-child(even){
+	background: var(--white);
+}
+.DailyConnexions_CardUserName {
+	inline-size: 10em;
+}
+.DailyConnexions_CardCallDiscount {
+	display: flex;
+	flex-direction: column;
+}
+.DailyConnexions_CardCallDiscount .Discount {
+	font-size: 0.7em;
+	color: rgb(0, 0, 0, 0.4);
+}
+.DailyConnexions_CardIcons {
+	display: flex;
+	align-items: center;
+	gap: 1em;
+}
+.DailyConnexions_CardIcons .fa-circle {
+	color: var(--primary);
+}
+.DailyConnexions_CardIconsContact {
+	display: flex;
+	gap: 0.4em;
+}

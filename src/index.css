@@ -5,5 +5,19 @@
 }
 
 :root {
+	/* Fonts */
+	--body-font: "Nunito",sans-serif;
+	
+	/* Colors */
+	--primary: #FD531E;
 	--white: #FFFFFF;
+	--darkColor: #2B2E43;
+	--cardBgColor: #464858;
+	--body-bg: #F6F7F9;
+	--black: #000000;
+	--hightlight: #ECF3FD;
+	font-family: var(--body-font);
+}
+body {
+	background: var(--body-bg);
 }

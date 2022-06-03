@@ -1,0 +1,8 @@
+.Head_LateralLeftSide {
+	display: flex;
+	flex-direction: column;
+	gap: 3em;
+}
+.Img_LateralLeftSide {
+	inline-size: 3rem;
+}

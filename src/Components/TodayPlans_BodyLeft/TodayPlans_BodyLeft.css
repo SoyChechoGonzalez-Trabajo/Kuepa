@@ -1,0 +1,11 @@
+.TodayPlans_BodyLeft {
+	background: var(--white);
+	padding-block-start: 0.5em;
+	padding-block-end: 1.5em;
+	border-radius: 1.5em;
+}
+.TodayPlans_BodyLeft h2 {
+	margin-block: 0.5em;
+	padding-inline: 1em 3em;
+	text-align: left;
+}

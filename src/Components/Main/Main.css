@@ -1,0 +1,12 @@
+.Main {
+	background: var(--body-bg);
+	inline-size: 100%;
+	padding: 1.5em;
+	border-top-left-radius: 3em;
+	border-bottom-left-radius: 3em;
+	z-index: 1;
+	padding-block-start: 2em;
+	display: flex;
+	flex-direction: column;
+	gap: 2em;
+}

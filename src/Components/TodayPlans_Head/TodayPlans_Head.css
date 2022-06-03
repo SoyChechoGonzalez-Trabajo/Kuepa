@@ -1,0 +1,26 @@
+.TodayPlans_Head {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	gap: 6em;
+}
+.TodayPlans_Head h2 {
+	font-size: 12px;
+	inline-size: 100%;
+}
+.TodayPlans_CallManagement {
+	font-size: 12px;
+	inline-size: 100%;
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+@media screen and (min-width: 768px) {
+	.TodayPlans_Head h2 {
+		font-size: 1.5em;
+	}
+	.TodayPlans_CallManagement {
+		font-size: 1em;
+		inline-size: initial;
+	}
+}

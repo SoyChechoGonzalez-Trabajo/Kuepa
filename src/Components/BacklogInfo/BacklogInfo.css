@@ -1,0 +1,11 @@
+.BacklogInfo {
+	font-size: 1rem;
+	padding: 1em;
+	display:flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 1em;
+	background: var(--white);
+	border-radius: 1.5em;
+}

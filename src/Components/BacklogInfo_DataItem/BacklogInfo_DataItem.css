@@ -1,0 +1,12 @@
+.BacklogInfo_DataItem {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(100px, 100px));
+}
+.BacklogInfo_DataItem span:nth-child(1) {
+	display: block;
+	inline-size: 6em;
+}
+
+.BacklogInfo_DataItem span:nth-child(2) {
+	font-size: 1.5em;
+}
