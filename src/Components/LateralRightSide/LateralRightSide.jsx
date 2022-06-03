@@ -5,8 +5,6 @@ import ProspectCardContact from '../ProspectCardContact/ProspectCardContact';
 import { useSelector, useDispatch } from "react-redux";
 import { getProspects } from "../../redux/actions";
 
-
-
 const LateralRightSide = () => {
 	const dispatch = useDispatch();
 	const prospects = useSelector((state) => state.prospects);
