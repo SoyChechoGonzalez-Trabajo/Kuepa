@@ -1,0 +1,14 @@
+.TodayPlans_BodyRight {
+	/* Grid flex cards wrap*/
+	display: grid;
+	grid-template-columns: repeat(1, minmax(200px, 1fr));
+	grid-gap: 8px;
+	grid-auto-rows: minmax(50px, 8em);
+	grid-auto-flow: dense;
+}
+
+@media screen and (min-width: 768px) {
+	.TodayPlans_BodyRight {
+		grid-template-columns: repeat(2, minmax(200px, 1fr));
+	}
+}

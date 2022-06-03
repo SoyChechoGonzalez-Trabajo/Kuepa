@@ -3,6 +3,8 @@
 	display: flex;
 	gap: 1em;
 	font-size: 1rem;
+	padding: 1em;
+	border-radius: 1.5em;
 }
 .TodayPlans_BodyRightCardBoxNumber span{
 	inline-size: 2em;
@@ -15,7 +17,6 @@
 	font-size: 2em;
 	color: var(--primary);
 }
-
 .TodayPlans_BodyRightCardBoxNumber {
 	inline-size: 6em;
 	block-size: 6em;
@@ -26,9 +27,11 @@
 	border-radius: 1em;
 }
 .TodayPlans_BodyRightCardDescription {
-	inline-size: 8em;
+	inline-size: 6em;
 	display: flex;
 	flex-direction: column;
 	gap: 0.2em;
-	border: 1px solid red;
+}
+.TodayPlans_BodyRightCardDescription span {
+	font-size: 0.8em;
 }
